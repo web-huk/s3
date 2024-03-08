@@ -4,7 +4,7 @@ variable "bucket_details" {
         tags        = string
     })
     default         = {
-        name        = "st-tf-bucket-test"
-        tags        = "My tf bucket"
+        name        = "tf-fs-sb-bucket-test"
+        tags        = "Fs tf bucket"
     }
 }
